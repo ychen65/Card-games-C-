@@ -1,5 +1,5 @@
 Script started on 2019-12-17 00:35:35-0500
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat main.cpp
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat main.cpp
 //
 //  main.cpp
 //  Program: CS331_HW05
@@ -7,8 +7,8 @@ Script started on 2019-12-17 00:35:35-0500
 //  Description:It is a crad game. User get points from some type of card.
 //  Last Modifity date:12/17/2019
 //
-//  Created by Chenyu Wang on 11/24/19.
-//  Copyright © 2019 chenyu wang. All rights reserved.
+//  Created by Yongqiang Chen on 11/24/19.
+//  Copyright © 2019 Yongqiang Chen. All rights reserved.
 //
 
 #include "CardDeck.h"
@@ -49,17 +49,17 @@ int main(int argc, char * argv[]) {
     
     
 }
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat [K[K[K[K;s
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat [K[K[K[K;s
 bash: syntax error near unexpected token `;'
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
 CardDeck.cpp  CardDeck.h  CardHand.cpp  CardHand.h  hw05script  main.cpp
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CardDeck.h
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CardDeck.h
 //
 //  CardDeck.hpp
 //  CS331_HW05
 //
-//  Created by Chenyu Wang on 11/24/19.
-//  Copyright © 2019 chenyu wang. All rights reserved.
+//  Created by Yongqiang Chen on 11/24/19.
+//  Copyright © 2019 Yongqiang Chen. All rights reserved.
 //
 
 #ifndef CardDeck_h_
@@ -77,13 +77,13 @@ public:
 };
 
 #endif /* CardDeck_hpp */
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat [K[K[K[Kcat CardDeck.h[Kcpp
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat [K[K[K[Kcat CardDeck.h[Kcpp
 //
 //  CardDeck.cpp
 //  CS331_HW05
 //
-//  Created by Chenyu Wang on 11/24/19.
-//  Copyright © 2019 chenyu wang. All rights reserved.
+//  Created by Yongqiang Chen on 11/24/19.
+//  Copyright © 2019 Yongqiang Chen. All rights reserved.
 //
 
 #include "CardDeck.h"
@@ -116,15 +116,15 @@ CardHand CardDeck::deal(int size){
     hand.cardInHand(card,size);
     return hand;
 }
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
 CardDeck.cpp  CardDeck.h  CardHand.cpp  CardHand.h  hw05script  main.cpp
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CardHand.h
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CardHand.h
 //
 //  CardHand.hpp
 //  CS331_HW05
 //
-//  Created by Chenyu Wang on 11/24/19.
-//  Copyright © 2019 chenyu wang. All rights reserved.
+//  Created by Yongqiang Chen on 11/24/19.
+//  Copyright © 2019 Yongqiang Chen. All rights reserved.
 //
 
 #ifndef CardHand_h_
@@ -145,13 +145,13 @@ public:
     ~CardHand();
 };
 #endif /* CardHand_hpp */
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat[K[K[Kcat CardHand.h[Kcpp
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat[K[K[Kcat CardHand.h[Kcpp
 //
 //  CardHand.cpp
 //  CS331_HW05
 //
-//  Created by Chenyu Wang on 11/24/19.
-//  Copyright © 2019 chenyu wang. All rights reserved.
+//  Created by Yongqiang Chen on 11/24/19.
+//  Copyright © 2019 Yongqiang Chen. All rights reserved.
 //
 
 #include "CardHand.h"
@@ -197,12 +197,12 @@ QString CardHand::toString(){
 CardHand::~CardHand(){
     
 }
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ qmake -po[Kroject
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ qmkae [K[K[K[K[Kmake 
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ qmake -po[Kroject
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ qmkae [K[K[K[K[Kmake 
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ ls
 CardDeck.cpp  CardHand.cpp  CS331_HW05.pro  main.cpp
 CardDeck.h    CardHand.h    hw05script      Makefile
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat Makefile 
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat Makefile 
 #############################################################################
 # Makefile for building: CS331_HW05
 # Generated by qmake (2.01a) (Qt 4.8.7) on: Tue Dec 17 00:36:46 2019
@@ -429,7 +429,7 @@ uninstall:   FORCE
 
 FORCE:
 
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CS331_HW05.pro 
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ cat CS331_HW05.pro 
 ######################################################################
 # Automatically generated by qmake (2.01a) Tue Dec 17 00:36:41 2019
 ######################################################################
@@ -495,12 +495,12 @@ Here is your hand:
 Here is your hand:
 My score is: 2 points.
 I win !!
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ make distclean
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ make distclean
 rm -f CardDeck.o CardHand.o main.o
 rm -f *~ core *.core
 rm -f CS331_HW05 
 rm -f Makefile
-]0;chenyu@chenyu-VirtualBox: ~/CS/CS331_HW05[01;32mchenyu@chenyu-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ exit
+]0;yongqiang@yongqiang-VirtualBox: ~/CS/CS331_HW05[01;32myongqiang@yongqiang-VirtualBox[00m:[01;34m~/CS/CS331_HW05[00m$ exit
 exit
 
 Script done on 2019-12-17 00:38:14-0500
